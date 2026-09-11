@@ -1,5 +1,7 @@
 [index.html](https://github.com/user-attachments/files/32083656/index.html)
-# car-cost<!DOCTYPE html>
+# 養車成本分析
+
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -276,38 +278,7 @@
             </div>
         </header>
 
-        <!-- 電池壽命疑問解答卡片 -->
-        <div class="card" style="margin-bottom: 2rem;">
-            <h2>💡 電池壽命疑問專題分析：「電池真的 5 年就要換嗎？」</h2>
-            <div class="qa-box">
-                <div class="qa-title">結論摘要：現代車用電池壽命已大幅提升，並非 5 年就必須換新！</div>
-                <div class="qa-content">
-                    原廠對油電與純電車電池大多提供 <b>8 年或 16 萬公里</b> 的長期保固。在年行駛 1 萬公里的低里程使用條件下，電池衰退幅度小，大電池絕大多數能在 8-10 年間正常運作。
-                </div>
-            </div>
-
-            <div class="grid-2">
-                <div>
-                    <h3 style="color: var(--accent-blue); margin-bottom: 0.5rem;">⚡ 油電混合車 (Hybrid) 電池分析</h3>
-                    <ul class="note-list">
-                        <li><b>原廠保固：</b>通常為 8 年或 16 萬公里（如 Toyota）。</li>
-                        <li><b>實際壽命：</b>平均耐用約 7 - 10 年（約 15~20 萬公里）。</li>
-                        <li><b>更換費用：</b>若在第 7-8 年過保後更換，大電池費用約 <b>NT$ 50,000 - 70,000</b>。</li>
-                        <li><b>本試算納入：</b>已預留 <b>NT$ 60,000</b> 做為 10 年內更換一次大電池的攤提成本。</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 style="color: var(--accent-green); margin-bottom: 0.5rem;">🔋 純電動車 (EV) 電池分析</h3>
-                    <ul class="note-list">
-                        <li><b>原廠保固：</b>標準為 8 年或 16 萬公里（保證容量 ≥ 70%）。</li>
-                        <li><b>實際壽命：</b>具備水冷溫控與 BMS 管理，循環壽命達 1500+ 次。10 年跑 10 萬公里僅衰退約 10-15%。</li>
-                        <li><b>更換費用：</b>整組極貴，但保固期長且 10 萬公里內壞掉機率極低；模組修復約 2-5 萬。</li>
-                        <li><b>本試算納入：</b>預留 <b>NT$ 20,000</b> 輔助電瓶與系統檢修預備金，整組更換屬低機率事件。</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+     
         <!-- 核心數據總覽卡片 -->
         <h2 class="section-title">📊 10 年養車總成本概覽 (含車價 105 萬攤提)</h2>
         <div class="stat-grid">
@@ -473,6 +444,38 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+
+   <!-- 電池壽命疑問解答卡片 -->
+        <div class="card" style="margin-bottom: 2rem;">
+            <h2>💡 電池壽命疑問專題分析：「電池真的 5 年就要換嗎？」</h2>
+            <div class="qa-box">
+                <div class="qa-title">結論摘要：現代車用電池壽命已大幅提升，並非 5 年就必須換新！</div>
+                <div class="qa-content">
+                    原廠對油電與純電車電池大多提供 <b>8 年或 16 萬公里</b> 的長期保固。在年行駛 1 萬公里的低里程使用條件下，電池衰退幅度小，大電池絕大多數能在 8-10 年間正常運作。
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div>
+                    <h3 style="color: var(--accent-blue); margin-bottom: 0.5rem;">⚡ 油電混合車 (Hybrid) 電池分析</h3>
+                    <ul class="note-list">
+                        <li><b>原廠保固：</b>通常為 8 年或 16 萬公里（如 Toyota）。</li>
+                        <li><b>實際壽命：</b>平均耐用約 7 - 10 年（約 15~20 萬公里）。</li>
+                        <li><b>更換費用：</b>若在第 7-8 年過保後更換，大電池費用約 <b>NT$ 50,000 - 70,000</b>。</li>
+                        <li><b>本試算納入：</b>已預留 <b>NT$ 60,000</b> 做為 10 年內更換一次大電池的攤提成本。</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color: var(--accent-green); margin-bottom: 0.5rem;">🔋 純電動車 (EV) 電池分析</h3>
+                    <ul class="note-list">
+                        <li><b>原廠保固：</b>標準為 8 年或 16 萬公里（保證容量 ≥ 70%）。</li>
+                        <li><b>實際壽命：</b>具備水冷溫控與 BMS 管理，循環壽命達 1500+ 次。10 年跑 10 萬公里僅衰退約 10-15%。</li>
+                        <li><b>更換費用：</b>整組極貴，但保固期長且 10 萬公里內壞掉機率極低；模組修復約 2-5 萬。</li>
+                        <li><b>本試算納入：</b>預留 <b>NT$ 20,000</b> 輔助電瓶與系統檢修預備金，整組更換屬低機率事件。</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
